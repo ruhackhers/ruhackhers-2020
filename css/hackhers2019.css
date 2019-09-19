@@ -3,11 +3,11 @@ body{
 }
 
 a{
-  color:#679BDC;
+  color: black
 }
 
 b{
-  color: #679BDC;
+  color: black;
 }
 
 a:hover{
@@ -18,7 +18,7 @@ a:hover{
 
 
 ::selection {
-  background: #033472;
+  background: #f3dcac;m
   color: #f9f9f9;
 }
 
@@ -38,7 +38,7 @@ a:hover{
 .navbar{
   border-radius: 0;
   height: 80px;
-  background-color: #033472;
+  background-color: #000000;
   border-bottom: 1px solid #063268;
   box-shadow: 0 0 5px 0 #063268;
   margin-bottom: 0;
@@ -88,7 +88,7 @@ should be cleared when going to a different res size*/
 }
 
 .nav .navbar-nav{
-  background-color: #ffe7eb;
+  background-color: #000000;
   color: #090909;
 }
 
@@ -123,7 +123,7 @@ list-inline > li {
 .btn-outline {
     margin-top: 15px;
     font-size: 30px;
-    color: #033472;
+    color: black;
     background: 0 0;
 }
 
@@ -173,58 +173,58 @@ with the exception of the hero and footer
 each section will be a gradient*/
 #about{
     background: #ffffff; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#ffffff, #dfdfe4); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#ffffff, #dfdfe4); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#ffffff, #dfdfe4); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#ffffff, #dfdfe4);
-    color: #f9f9f9;
+    background: -webkit-linear-gradient(#ffffff, #f3dcac); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffffff, #f3dcac); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffffff, #f3dcac); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffff, #f3dcac);
+    color: blackßß;
 
 }
 
 #get-involved{
   background: #dfdfe4; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#dfdfe4, #b5b5bf); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#dfdfe4, #b5b5bf); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#dfdfe4, #b5b5bf); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#dfdfe4, #b5b5bf);
+  background: -webkit-linear-gradient(#f3dcac, #f8b638); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#f3dcac, #f8b638); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#f3dcac, #f8b638); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#f3dcac, #f8b638);
   color: #f9f9f9;
 }
 
 #schedule{
   background: #b5b5bf; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#b5b5bf, #8b8b9b); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#b5b5bf, #8b8b9b); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#b5b5bf, #8b8b9b); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#b5b5bf, #8b8b9b);
+  background: -webkit-linear-gradient(#f8b638, #a00a44); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#f8b638, #a00a44); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#f8b638, #a00a44); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#f8b638, #a00a44);
   color: #f9f9f9;
 }
 
 #faq{
-  background: #8b8b9b; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#8b8b9b, #5b5b69); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#8b8b9b, #5b5b69); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#8b8b9b, #5b5b69); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#8b8b9b, #5b5b69);
-  color: #f9f9f9;
+  background: black; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#a00a44, #e34986); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#a00a44, #e34986); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#a00a44, #e34986); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#a00a44, #e34986);
+  color: black;
 }
 
 
 #sponsors{
   background: #5b5b69; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#5b5b69, #36363f); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#5b5b69, #36363f); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#5b5b69, #36363f); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#5b5b69, #36363f);
+  background: -webkit-linear-gradient(#e34986, #fec0aa); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#e34986, #fec0aa); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#e34986, #fec0aa); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#e34986, #fec0aa);
   color: #f9f9f9;
 
 }
 
 #team{
   background: #36363f; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(#36363f, #1b1b20); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(#36363f, #1b1b20); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(#36363f, #1b1b20); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(#36363f, #1b1b20);
+  background: -webkit-linear-gradient(#fec0aa, #1b1b20); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#fec0aa, #1b1b20); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#fec0aa, #1b1b20); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#fec0aa, #1b1b20);
   color: #f9f9f9;
 }
 
@@ -233,7 +233,7 @@ each section will be a gradient*/
 #hero-text{
   width: 100%;
   font-family: 'Montserrat';
-  color: #033472;
+  color: black;
 }
 
 #hero-text h1{
@@ -253,14 +253,14 @@ each section will be a gradient*/
   font-size: 38px;
   font-weight: 600;
   text-transform: capitalize;
-  color: #033472;
+  color: black;
 }
 
 #hero-text h4{
   font-size: 38px;
   font-weight: 600;
   text-transform: capitalize;
-  color: #b3b3b3de;
+  color: black;
 }
 
 .img-txt #about-img{
@@ -273,7 +273,7 @@ each section will be a gradient*/
 #about-text h1{
   margin: 0 auto;
   padding: 5rem;
-  color: #033472;
+  color: black;
 }
 
 #about-text p{
@@ -318,8 +318,13 @@ each section will be a gradient*/
     opacity: 0.8;
 
 }
+
+#faq h1 {
+  color: black;
+}
+
 #faq h4{
-  color: #7186BC;
+  color: black;
   font-size: 22px;
   font-weight: 600;
   text-transform: none;
@@ -333,7 +338,7 @@ each section will be a gradient*/
     font-size: 16px;
     font-weight: 400;
     font-family: 'Montserrat';
-    color: #0C0F3C;
+    color: black;
 }
 
 
@@ -349,24 +354,24 @@ each section will be a gradient*/
 	text-align: center;
   box-shadow: 0 2px 2px  #090909;
   font-weight: bold;
-  color: white;
+  color: black;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #schedule .btn:hover{
-  background-color:#033472;
-  border-color:#033472;
-	color: white;
+  background-color: black;
+  border-color: black;
+	color: black;
 	transition: all .3s ease-in-out;
 }
 
 #schedule h1 {
-	color: #f9f9f9;
+	color: black;
 }
 
 #saturday, #sunday{
   font-size: 24px;
-  color: #f9f9f9;
+  color: black;
   margin-bottom: 50px 0;
 }
 
@@ -375,7 +380,7 @@ each section will be a gradient*/
   margin: 25px auto;
   width: 100%;
   font-size: 18px;
-  color: #f9f9f9;
+  color: black;
 
 }
 
@@ -411,11 +416,11 @@ each section will be a gradient*/
 /* sponsors styling*/
 
 #sponsors h1 {
-	color: #f9f9f9;
+	color: black;
 }
 
 #sponsors h3, #sponsors h4{
-  color: #E6D2FF;
+  color: black;
 }
 
 .sponsorship-wrapper{
@@ -496,11 +501,11 @@ each section will be a gradient*/
 }
 
 #get-involved h1 {
-	color: #033472;
+	color: black;
 }
 
 #get-involved p{
-	color: #090909;
+	color: black;
 	font-size: 20px;
 	font-family: 'Montserrat';
 	font-weight: 400;
@@ -516,14 +521,14 @@ each section will be a gradient*/
 	text-align: center;
   box-shadow: 0 2px 2px  #090909;
   font-weight: bold;
-  color: white;
+  color: black;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #get-involved .btn:hover{
   background-color:#033472;
   border-color:#033472;
-	color: white;
+	color: black;
 	transition: all .3s ease-in-out;
 }
 
@@ -531,13 +536,13 @@ each section will be a gradient*/
 #get-involved .hacker-reg, #get-involved .help-reg{
 	width: 100%;
   display: inline-block;
-  color: blue;
+  color: black;
 }
 
 /*team styling*/
 
 #team h1 {
-	color: #f9f9f9;
+	color: black;
 }
 
 #team .row{
@@ -568,7 +573,7 @@ each section will be a gradient*/
 }
 
 #team h4, #team h6{
-  color: #f9f9f9;
+  color: black;
   font-weight: 400;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
@@ -608,7 +613,7 @@ footer a:hover{
 
 
 #footer-credits{
-	color: #ffffff;
+	color: #black;
   font-weight: 400;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
@@ -621,7 +626,7 @@ footer a:hover{
 }
 
 #footer-credits a:hover{
-	color: #fcb9f9;
+	color: black;
 	text-decoration: none;
 	transition: all .3s ease-in-out;
 }
@@ -643,7 +648,7 @@ footer a:hover{
 
   .navbar-toggle:hover{
     background-color:#213355;
-    color: #f9f9f9;
+    color: black;
     transition: all .3s ease-in-out;
   }
 
@@ -657,7 +662,7 @@ footer a:hover{
     padding: 0px;
     width: 100%;
     margin: -8px 0 0 0;
-    background-color:#213355;
+    background-color: black;
     height: 100%;
     overflow:hidden;
 
@@ -848,7 +853,7 @@ footer a:hover{
 
   #hero-text h1{
     font-size: 30px;
-      color: #f9f9f9;
+      color: black;
 
   }
 
@@ -869,6 +874,7 @@ footer a:hover{
   #about-text p{
       font-size: 14px;
   }
+
 
   .img-txt #about-img{
     width: 320px;
@@ -959,7 +965,7 @@ footer a:hover{
 		margin: 25px;
 	}
 
-	#facebook, #bloomberg, #prudential{
+	#r, #bloomberg, #prudential{
 		width: 150px;
 		height: auto;
 		margin: 30px;
@@ -994,7 +1000,7 @@ footer a:hover{
     text-align: left;
     border: 3px solid #090909;
     border-radius: 15px;
-    background-color: #090909;
+    background-color: black;
     opacity: 0.8;
 
 }
@@ -1006,7 +1012,7 @@ footer a:hover{
   }
   .speech-bubble {
     position: relative;
-    background: #033472;
+    background: black;
     border-radius: .4em;
   }
 
